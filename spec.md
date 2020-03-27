@@ -12,3 +12,4 @@ Function and information:
 3. Providing Personal hygienic advice
 4. Providing Symptoms of coronavirus
 5. Providing useful contact numbers
+6. Providing record and show temperature record function
