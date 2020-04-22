@@ -194,7 +194,7 @@ def handle_message(event):
                     )
         elif event.message.text =="@latestInformation":
             headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36'}
-            url="http://www.chp.gov.hk/files/misc/enhanced_sur_pneumonia_wuhan_eng.csv"
+            url="http://www.chp.gov.hk/files/misc/enhanced_sur_covid_19_eng.csv"
             s=requests.get(url, headers= headers).text
             c=pd.read_csv(StringIO(s), sep=",")
             genders = c.groupby("Gender")
